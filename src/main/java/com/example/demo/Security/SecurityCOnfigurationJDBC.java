@@ -26,6 +26,7 @@ public class SecurityCOnfigurationJDBC extends WebSecurityConfigurerAdapter {
         auth.
                 jdbcAuthentication()
                 .dataSource(dataSource);
+        //Please use below code for having default schema.
                /* .withDefaultSchema()
                 .withUser(
                         User.withUsername("check")
